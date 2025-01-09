@@ -1,11 +1,13 @@
 - 👋 Hi, I’m @Prakash
 -  🚀 **AI/ML Engineer | Data Scientist | Problem Solver**  
-Passionate about building intelligent systems and leveraging data-driven insights to solve real-world challenges.  
+Passionate about building intelligent systems and leveraging data-driven insights to solve real-world challenges.
+
 - 🌱**Currently Learning**:-Reinforcement Learning, Generative AI (GANs, Diffusion Models)
-- 💞️ I’m looking to collaborate on AI/ML Projects...
+  
 - 📫 **Reach Me At**
 - - GitHub: [https://github.com/yourusername](https://github.com/yourusername)  
-- LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile) 
+- - LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+    
 - ⚡ Fun fact: Playing cricket in club after certain ages ..
 <!---
 Prakash is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
