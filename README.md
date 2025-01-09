@@ -10,13 +10,13 @@ Passionate about building intelligent systems and leveraging data-driven insight
   - ETL Tools - Informatica Power Center, Informatica Developer tool (BDM) 
 
 - 🌱**Currently Learning**:
-  - - Deep Learning (TensorFlow, PyTorch, Keras)
-  - - Natural Language Processing (Transformers, GPT, BERT)
-  - - Computer Vision (OpenCV, YOLO, ResNet)
+  - Deep Learning (TensorFlow, PyTorch, Keras)
+  - Natural Language Processing (Transformers, GPT, BERT)
+  - Computer Vision (OpenCV, YOLO, ResNet)
   
 - 📫 **Reach Me At**
-  - - GitHub: [https://github.com/yourusername](https://github.com/yourusername)  
-  - - LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+  - GitHub: [https://github.com/yourusername](https://github.com/yourusername)  
+  - LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
     
 - ⚡ Fun fact: Playing cricket in club after certain ages ..
 <!---
