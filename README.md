@@ -1,23 +1,37 @@
-- 👋 **Hi, I’m @Prakash**
-  -  🚀 **Data Engineer | AI/ML Engineer | Data Scientist | Problem Solver**
-- 🧠 **Skills & Expertise**
-  -  Machine Learning (Scikit-learn,one hot coding,outliers,Cross val(k fold),Hyper tuning for ml models ...)
-  -   Data Visualization (Matplotlib, Seaborn, Plotly)
-  -   Big Data Tools (Spark, Hadoop)
-  -   Cloud Platforms (AWS, GCP, Azure)
-  -   Databases: Oracle, EXADATA, HIVE-QL
-  -   ETL Tools - Informatica Power Center, Informatica Developer tool (BDM) 
-- 🌱**Currently Learning**:
-  - Deep Learning (TensorFlow, PyTorch, Keras)
-  - Natural Language Processing (Transformers, GPT, BERT)
-  - Computer Vision (OpenCV, YOLO, ResNet)
-  
-- 📫 **Reach Me At**
-  - GitHub  : https://github.com/bsprakashbs/AI_ML_PYTHON/tree/master/Python_Project/Project/Data_science_Project  (AI Egnineer)
-  - LinkedIn: https://www.linkedin.com/in/prakash-bhavani-selvaraj-523a8a188/    (Data Engineer)
-    
-- ⚡ Fun fact: Playing cricket in club after certain ages.Travel to different county's to play matches in summer
-<!---
-Prakash is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+-**Ireland House Price Prediction**
+**Project Overview**
+This project aims to predict house prices in Ireland using advanced machine learning techniques. By leveraging real estate data, including property features, location, and market trends, this model provides accurate and actionable price estimates to assist buyers, sellers, and real estate professionals in making informed decisions.
+---------------------------------------------------------------------------------------------------------------------------------
+
+**Key Features**
+- Data Sources: Aggregated historical data on house prices from public databases, real estate listings, and economic indicators such as interest rates and inflation.
+- Exploratory Data Analysis (EDA): Insights into key factors influencing house prices in Ireland, including property type, location, and proximity to amenities.
+- Feature Engineering:
+	-- Location clustering using k-means to group similar neighborhoods.
+	--Extraction of geospatial features (e.g., distance to schools, parks, and city centers).
+	--Temporal patterns derived from monthly or quarterly sales data.
+---------------------------------------------------------------------------------------------------------------------------------
+**Technology Stack**
+- Data Preprocessing: Python (Pandas, NumPy, Scikit-learn)
+- Machine Learning Models:
+	-- Baseline Models: Linear Regression, Decision Trees
+	-- Advanced Models: Random Forest, Gradient Boosting (XGBoost, LightGBM), CatBoost
+	-- Deep Learning: Neural Networks for non-linear interactions
+- Visualization Tools: Matplotlib, Seaborn, Plotly for interactive charts
+---------------------------------------------------------------------------------------------------------------------------------
+**Challenges & Solutions**
+- Challenge: Handling missing data for older property records.
+Solution: Imputed missing values using median prices grouped by property type and location.
+
+- Challenge: High variance in rural vs. urban housing prices.
+Solution: Applied stratified sampling and included geospatial features to improve model robustness.
+---------------------------------------------------------------------------------------------------------------------------------
+**Potential Applications**
+- Homebuyers: Get price estimates based on desired location and property features.
+- Real Estate Agents: Provide clients with data-driven recommendations.
+- Policy Makers: Monitor housing affordability and market trends.
+---------------------------------------------------------------------------------------------------------------------------------
+**Future Enhancements**
+-Integrating macroeconomic data like GDP growth, unemployment rates, and foreign investment trends.
+-Adding time-series forecasting to predict future price trends.
+-Incorporating computer vision models to analyze property images for automated valuation.
