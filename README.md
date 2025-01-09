@@ -1,7 +1,7 @@
--**Ireland House Price Prediction**
-**Project Overview**
+**Ireland House Price Prediction**
+--------------------------------------------------------------------------------------------------------------------------------
+**Project Overview** :
 This project aims to predict house prices in Ireland using advanced machine learning techniques. By leveraging real estate data, including property features, location, and market trends, this model provides accurate and actionable price estimates to assist buyers, sellers, and real estate professionals in making informed decisions.
----------------------------------------------------------------------------------------------------------------------------------
 
 **Key Features**
 - Data Sources: Aggregated historical data on house prices from public databases, real estate listings, and economic indicators such as interest rates and inflation.
@@ -32,6 +32,6 @@ Solution: Applied stratified sampling and included geospatial features to improv
 - Policy Makers: Monitor housing affordability and market trends.
 ---------------------------------------------------------------------------------------------------------------------------------
 **Future Enhancements**
--Integrating macroeconomic data like GDP growth, unemployment rates, and foreign investment trends.
--Adding time-series forecasting to predict future price trends.
--Incorporating computer vision models to analyze property images for automated valuation.
+- Integrating macroeconomic data like GDP growth, unemployment rates, and foreign investment trends.
+- Adding time-series forecasting to predict future price trends.
+- Incorporating computer vision models to analyze property images for automated valuation.
