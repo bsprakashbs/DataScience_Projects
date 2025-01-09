@@ -15,8 +15,8 @@ Passionate about building intelligent systems and leveraging data-driven insight
   - Computer Vision (OpenCV, YOLO, ResNet)
   
 - 📫 **Reach Me At**
-  - GitHub: [https://github.com/yourusername](https://github.com/yourusername)  
-  - LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+  - GitHub  : https://github.com/yourusername](https://github.com/yourusername)](https://github.com/bsprakashbs/AI_ML_PYTHON/tree/master/Python_Project/Project/Data_science_Project
+  - LinkedIn: https://www.linkedin.com/in/prakash-bhavani-selvaraj-523a8a188/
     
 - ⚡ Fun fact: Playing cricket in club after certain ages.Travel to different county's to play matches in summer
 <!---
