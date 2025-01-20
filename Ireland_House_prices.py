@@ -25,13 +25,20 @@ app = FastAPI()
 
 
 class IrelandHousePrice:
+    # ---------------------  String datatype check ----------------------#
     def is_string_dtype(self,inputcolumn):
             return  is_string_dtype(inputcolumn)
+
+    # ---------------------  Numeric datatype check ----------------------#
     def is_numeric_dtype(self,inputcolumn):
             return  is_numeric_dtype(inputcolumn)
+
+    # ---------------------  Numeric value check ----------------------#
     def CheckNumericColValues(self,a):
             output = re.sub(r'\d+', '', a)
             return len(output)
+
+    # ---------------------  Removing outliers----------------------#
     def remove_pps_outliers(self,df):
         df_out =pd.DataFrame()
         print('called def  remove_pps_outliers ............')
@@ -45,6 +52,8 @@ class IrelandHousePrice:
             df_out=pd.concat([df_out,reduced_df],ignore_index=True)
         return df_out
 
+    # ---------------------  Scatter plotting----------------------#
+
     def plot_scatter(self,df,Area):
         bed3 = df[(df.Area == Area) & (df.no_of_Bedrooms == 2)]
         bed4 = df[(df.Area == Area) & (df.no_of_Bedrooms == 4)]
@@ -57,7 +66,7 @@ class IrelandHousePrice:
         plt.legend()
         #plt.show()
 
-
+    # ---------------------  choose the best model score----------------------#
     def best_ml_models_score(self,x_train,x_test,y_train,y_test):
         models = [
             # ,('Linear Regression', LinearRegression())
@@ -84,6 +93,7 @@ class IrelandHousePrice:
         best_model.fit(x_train, y_train)
         print(f"\nBest model: {best_model_name} with accuracy: {best_accuracy:.4f}")
 
+    # --------------------- Model Linear regression -----------------------#
     def Tuning_Linear_Regression(self, x_train, x_test, y_train, y_test):
             param_space = {'copy_X': [True, False],
                            'fit_intercept': [True, False],
@@ -97,6 +107,7 @@ class IrelandHousePrice:
             # Accuracy of the model after using best parameters
             print(f"Best Score: {random_search.best_score_}")
 
+    # ---------------------  Predict price using Model Linear regression -----------------------#
     def predict_price(self,x,Area,no_of_Bedrooms,no_of_Bathrooms,Floor_Area_m2):
             area_index = np.where(x.columns ==Area)[0][0]
             x=np.zeros(len(x.columns))
@@ -144,6 +155,7 @@ if __name__ == '__main__':
                                      .astype(int)
                                      )
         # Column - PriceCorrected"
+        # ---------------------  Exception handling  --------------------- #
         try:
          df_req_columns['PriceCorrected'] = (
                                     df_req_columns["Price"]
@@ -278,7 +290,7 @@ if __name__ == '__main__':
 
         #@app.get("/predict")
         #async def predict(x, Area, no_of_Bedrooms, no_of_Bathrooms, Floor_Area_m2):
-            #return {"result": obj.predict_price(x, 'carrigaline-cork', 4, 3, 217)}
+        #return {"result": obj.predict_price(x, 'carrigaline-cork', 4, 3, 217)}
 
 
 
